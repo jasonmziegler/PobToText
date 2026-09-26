@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="94" targetVersion="3_0" bandit="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="1" viewMode="TREE">
+		<PlayerStat stat="FullDPS" value="4521233"/>
+		<PlayerStat stat="CombinedDPS" value="4521233"/>
+		<PlayerStat stat="AverageDamage" value="35120"/>
+		<PlayerStat stat="Speed" value="4.15"/>
+		<PlayerStat stat="CritChance" value="6.3"/>
+		<PlayerStat stat="Life" value="5123"/>
+		<PlayerStat stat="LifeUnreserved" value="3891"/>
+		<PlayerStat stat="EnergyShield" value="1204"/>
+		<PlayerStat stat="Mana" value="412"/>
+		<PlayerStat stat="TotalEHP" value="41230"/>
+		<PlayerStat stat="FireResist" value="76"/>
+		<PlayerStat stat="ColdResist" value="76"/>
+		<PlayerStat stat="LightningResist" value="75"/>
+		<PlayerStat stat="ChaosResist" value="-12"/>
+		<PlayerStat stat="SpellSuppressionChance" value="100"/>
+		<PlayerStat stat="Str" value="109"/>
+		<PlayerStat stat="Dex" value="98"/>
+		<PlayerStat stat="Int" value="342"/>
+	</Build>
+	<Skills sortGemsByDPS="true" activeSkillSet="1" defaultGemQuality="0" defaultGemLevel="20">
+		<SkillSet id="1">
+			<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
+				<Gem enableGlobal2="true" skillId="RaiseSpectre" level="20" gemId="Metadata/Items/Gems/SkillGemRaiseSpectre" qualityId="Default" enabled="true" enableGlobal1="true" quality="20" nameSpec="Raise Spectre" count="1"/>
+				<Gem enableGlobal2="true" skillId="SupportMinionDamage" level="20" gemId="Metadata/Items/Gems/SupportGemMinionDamage" qualityId="Default" enabled="true" enableGlobal1="true" quality="20" nameSpec="Minion Damage Support" count="1"/>
+				<Gem enableGlobal2="true" skillId="SupportSpellEcho" level="20" gemId="Metadata/Items/Gems/SupportGemSpellEcho" qualityId="Default" enabled="true" enableGlobal1="true" quality="0" nameSpec="Spell Echo Support" count="1"/>
+			</Skill>
+			<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
+				<Gem enableGlobal2="true" skillId="Flesh Offering" level="20" gemId="Metadata/Items/Gems/SkillGemFleshOffering" qualityId="Default" enabled="true" enableGlobal1="true" quality="0" nameSpec="Flesh Offering" count="1"/>
+			</Skill>
+			<Skill mainActiveSkillCalcs="1" label="" enabled="false" slot="Gloves" mainActiveSkill="1">
+				<Gem enableGlobal2="true" skillId="ClarityAura" level="1" gemId="Metadata/Items/Gems/SkillGemClarity" qualityId="Default" enabled="true" enableGlobal1="true" quality="0" nameSpec="Clarity" count="1"/>
+			</Skill>
+		</SkillSet>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec title="Endgame" treeVersion="3_25" classId="3" ascendClassId="1" masteryEffects="{12345,54321}" nodes="123,456,789,1011,1213">
+			<URL>https://www.pathofexile.com/passive-skill-tree/AAAABgMABQ==</URL>
+			<Sockets/>
+		</Spec>
+		<Spec title="Leveling" treeVersion="3_25" classId="3" ascendClassId="1" nodes="123,456">
+			<URL>https://www.pathofexile.com/passive-skill-tree/AAAABgMA</URL>
+		</Spec>
+	</Tree>
+	<Notes>Spectres: use Redemption Sentries. Cap suppression before mapping.</Notes>
+	<Items activeItemSet="1">
+		<Item id="1">Rarity: RARE
+Corpse Cage
+Vaal Regalia
+Quality: 20
+Energy Shield: 320
+Requirements:
+Level: 68
+Int: 194
+Item Level: 84
++120 to maximum Life
++95 to maximum Energy Shield
++18% to all Elemental Resistances
+Minions deal 25% increased Damage</Item>
+		<Item id="2">Rarity: UNIQUE
+Bones of Ullr
+Silk Slippers
+Quality: 20
+Energy Shield: 42
+Requirements:
+Level: 22
+Int: 46
++20 to maximum Life
++20 to maximum Mana
+Can have up to 2 additional Raised Zombies
+Can have up to 1 additional Raised Spectre</Item>
+		<ItemSet useSecondWeaponSet="false" id="1" title="Main">
+			<Slot name="Body Armour" itemId="1"/>
+			<Slot name="Boots" itemId="2"/>
+			<Slot name="Gloves" itemId="0"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="enemyIsBoss" string="Pinnacle"/>
+		<Input name="conditionStationary" boolean="true"/>
+		<Input name="multiplierNearbyEnemies" number="3"/>
+	</Config>
+</PathOfBuilding>
